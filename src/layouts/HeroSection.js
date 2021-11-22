@@ -6,7 +6,10 @@ const HeroSection = () => {
     <section id='hero'>
       <div className='hero-container' data-aos='fade-in'>
         <h1>Welcome to eStartup</h1>
-        <h2>Elegant Bootstrap Template for Startups, Apps &amp; more...</h2>
+        <h2>
+          A startup or start-up is a company or project undertaken by an entrepreneur to seek, develop, and validate a scalable business model. &amp;
+          more...
+        </h2>
         <img src='assets/img/hero-img.png' alt='Hero Imgs' data-aos='zoom-out' data-aos-delay={100} />
         <Link to='#get-started' className='btn-get-started scrollto'>
           Get Started
